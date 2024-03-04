@@ -10,8 +10,21 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "@vueuse/nuxt": "^10.9.0",
     "nuxt": "^3.10.3",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@kalimahapps/eslint-plugin-tailwind": "^1.0.10",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@stylistic/eslint-plugin-js": "^1.6.3",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.22.0",
+    "sass": "^1.71.1"
   }
 }
